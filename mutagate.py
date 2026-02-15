@@ -7,6 +7,7 @@ import sys
 
 import click
 
+from diff_scope import get_changed_lines, filter_mutants, get_affected_test_files
 from mutators import generate_mutants
 
 
